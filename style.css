@@ -1,22 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body{
    display: flex;
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-   background:url('img.jpg') no-repeat;
+   background:url('images/img.jpg') no-repeat;
    background-size: cover;
    background-position: center;
 }
 
-.waper{
+.wrapper{
     width: 420px ;
     background:transparent;
     border: 2px solid rgba(225, 225, 225, .2);
@@ -26,11 +28,11 @@ body{
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
-.waper h1{
+.wrapper h1{
     font-size: 36px;
     text-align: center;
 }
-.waper .input-box{
+.wrapper .input-box{
     position: relative;
     width: 100%;
     height: 50px;
@@ -62,7 +64,7 @@ body{
     font-size: 20px;
 
 }
-.waper .remember{
+.wrapper .remember{
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
@@ -82,7 +84,7 @@ body{
  .remember a:hover{
     text-decoration: underline;
  }
- .waper .btn{
+ .wrapper .btn{
     width: 100%;
     height: 45px;
     background: #fff;
@@ -95,7 +97,7 @@ body{
     font-weight: 600;
  }
 
- .waper .register-link{
+ .wrapper .register-link{
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
